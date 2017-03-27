@@ -19,9 +19,9 @@ for tag in tagData :
     else:
         initialProb[tag] = tagData[tag]/sumVal
 
-text="sample.txt"
+#text="sample.txt"
 #text="catalan_corpus_dev_raw.txt"
-#text = sys.argv[1]
+text = sys.argv[1]
 with open(text, 'rb') as f:
     data = f.readlines()
 
