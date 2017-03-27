@@ -4,8 +4,8 @@ import pickle
 import json
 import time
 
-#text = sys.argv[1]
-text="catalan_corpus_train_tagged.txt"
+text = sys.argv[1]
+#text="catalan_corpus_train_tagged.txt"
 with open(text, 'r') as f:
     data = f.readlines()
 tags=[]
